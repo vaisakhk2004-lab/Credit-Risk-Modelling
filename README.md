@@ -93,7 +93,7 @@ credit-risk-modelling/
 ├── main.py             # Streamlit application
 ├── prediction.py                 
 ├── requirements.txt       # Project dependencies
-└── model pickle           # Saved model, scaler, and encoders
+└── model pickle           # Saved model, scaler, columns to scale and features
 ```
 
 ## 10. How to Run
