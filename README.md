@@ -41,7 +41,6 @@ The following preprocessing steps were applied to the raw dataset:
 - ✅ Missing value handling
 - ✅ Duplicate removal
 - ✅ Outlier treatment
-- ✅ Label Encoding
 - ✅ One-Hot Encoding
 - ✅ Feature scaling
 - ✅ SMOTETomek for class imbalance correction
