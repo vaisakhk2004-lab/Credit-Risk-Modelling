@@ -65,4 +65,3 @@ def predict(number_of_open_accounts, credit_utilization_ratio, age,income,loan_a
     return credit_score,rating,def_probability
 
 
-#streamlit run main.py
