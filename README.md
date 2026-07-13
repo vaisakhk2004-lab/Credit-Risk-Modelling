@@ -79,6 +79,17 @@ Based on these inputs, the app outputs:
 - Probability of default
 - Calculated credit score
 - Credit score rating
+- ## 7. Model Explainability (SHAP)
+
+To improve model transparency, SHAP (SHapley Additive exPlanations) was used to interpret the predictions of the final XGBoost model. SHAP provides both global and local explanations by quantifying the contribution of each feature to the predicted probability of default.
+
+### Key Insights
+
+- **Credit Utilization Ratio** was the most influential feature affecting credit default predictions.
+- Higher **Loan-to-Income Ratio** increased the probability of default.
+- Applicants with a higher **Delinquent-to-Loan Ratio** were more likely to default.
+- Loan tenure and residence type also contributed to the model's decision, although with lower impact.
+- SHAP explanations improve the interpretability of the model, making it easier to understand why a prediction was made.
 
 ## 8. Tech Stack
 
@@ -94,7 +105,8 @@ credit-risk-modelling/
 ├── main.py             # Streamlit application
 ├── prediction.py                 
 ├── requirements.txt       # Project dependencies
-└── model pickle           # Saved model, scaler, columns to scale and features
+└── model pickle      # Saved model, scaler, columns to scale and features___
+└── model.ipynb       #Model notebook
 ```
 
 ## 10. How to Run
