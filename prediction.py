@@ -5,7 +5,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 MODEL_DIR = BASE_DIR / "model pickle"
 import joblib
-model_data = joblib.load(MODEL_DIR/"model1.joblib")
+model_data = joblib.load(MODEL_DIR/"model.joblib")
 model=model_data['model']
 features=model_data['features']
 print(features)
